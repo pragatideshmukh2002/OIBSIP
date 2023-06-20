@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styletemp.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <script src="apptempl.js"></script>
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="box">
+      <h1 style="text-align: center; margin-top: -6px">
+        Temperature <span style="color: black">Converter</span>
+      </h1>
+      <h3>Degrees</h3>
+      <input type="number" id="deg" autofocus/>
+      <hr />
+      <h3>Type</h3>
+      <select id="opt">
+        <option value="Celsius">Celsius</option>
+        <option value="fahrenheit">Fahrenheit</option>
+      </select>
+      <hr />
+      <h3 style="display: block">Result</h3>
+      <div id="res"></div>
+      <button class="submit" onclick="temperature()">Convert</button>
+    </div>
+  </body>
+</html>
