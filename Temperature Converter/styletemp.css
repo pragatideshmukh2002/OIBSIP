@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    border:2px solid black;
+    width: 400px;
+    height: 440px;
+    margin: 100px 0px 0px 540px;
+    padding: 25px;
+    text-align: center;
+    -webkit-box-shadow: -4px 11px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 11px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: -4px 11px 16px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    background-color: white;
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    /* border-bottom: 0.6px solid black; */
+    text-align: center;
+    font-size: 18px;
+}
+select{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+.submit{
+    background-color:black;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    cursor: pointer;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+h3{
+    color: rgb(125, 125, 125);
+}
+::selection{
+    background-color: lightgrey;
+}
+#res{
+    border-bottom: 1px solid black;
+    padding: 20px;
+    font-size: 18px;
+    font-weight:bold
+}
